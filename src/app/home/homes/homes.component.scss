@@ -1,0 +1,35 @@
+#wrapper1 {
+  width: 960px;
+  margin: 0px auto;
+}
+#header {
+  height: 300px;
+}
+#footer {
+  height: 150px;
+}
+#sidebar {
+  width: 300px;
+  float: left;
+}
+#content {
+  width: 1000px;
+  float: right;
+}
+#sidebar,
+#content {
+  min-height: 500px;
+}
+
+#sidebar-wrapper {
+  min-height: 500px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875px 1.25px;
+  font-size: 2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
